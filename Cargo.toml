@@ -1,0 +1,25 @@
+[package]
+name = "nqm"
+version = "0.1.0"
+edition = "2021"
+description = "Tiny freestanding LLM inference: Llama / Qwen on CPU, only libc + libm underneath"
+license = "MIT"
+
+[lib]
+name = "nqm"
+path = "src/lib.rs"
+
+[[bin]]
+name = "nqm-run"
+path = "src/bin/nqm-run.rs"
+
+[profile.dev]
+panic = "abort"
+opt-level = 1
+
+[profile.release]
+panic = "abort"
+opt-level = 3
+lto = true
+codegen-units = 1
+debug = false
