@@ -68,3 +68,13 @@ Development notes: [docs/DEVLOG.md](docs/DEVLOG.md).
 3. batched prefill (matrix-matrix) so long prompts are not 1 token at a time
 4. f16 KV cache, sliding context
 5. SentencePiece tokenizer (Llama 2 / TinyLlama / Mistral)
+
+## License
+
+<a href="https://opensource.org/license/mit">
+  <img align="right" height="72" alt="MIT License" src="https://universoabierto.org/wp-content/uploads/2017/06/mit_license_logo_by_excaliburzero-d9ur2lg.png" />
+</a>
+
+NqM is licensed under the **MIT License**.
+
+The full license text is available [here](https://opensource.org/license/mit) and is included in the [`LICENSE`](LICENSE) file in the repository.
